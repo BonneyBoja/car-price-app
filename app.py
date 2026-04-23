@@ -33,7 +33,7 @@ import joblib
 
 @st.cache_resource
 def load_model():
-    return joblib.load("car_price_model.joblib")
+    return joblib.load("car_price_pipeline.joblib")
 
 model = load_model()
 
