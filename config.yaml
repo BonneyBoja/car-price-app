@@ -1,0 +1,21 @@
+cookie:
+  expiry_days: 30
+  key: random_signature_key
+  name: random_cookie_name
+credentials:
+  usernames:
+    admin:
+      email: admin@dealership.com
+      name: System Admin
+      password: $2b$12$K.A32Xn/8iG50K.X2.k/6eT3E4j1u204f129.e1Xo2.11w/w/w/w/
+    boja:
+      email: ochiengbonn2018@gmail.com
+      failed_login_attempts: 0
+      first_name: Bonney
+      last_name: omondi
+      logged_in: false
+      password: $2b$12$tWwNqSRzSaGne0a7sV1L8.2PzQ/g4PEveHcb1UOPeaofsLKKXJLxS
+      password_hint: omondi
+      roles: null
+preauthorized:
+  emails: []
