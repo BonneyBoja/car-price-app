@@ -122,16 +122,6 @@ elif st.session_state["authentication_status"]:
     """
 
     st.markdown(page_bg_img, unsafe_allow_html=True)
-
-    # 2. Load the trained model
-    import joblib
-
-    @st.cache_resource
-    def load_model():
-        return joblib.load("car_price_model.joblib")
-
-    model = load_model()
-
     st.title(":green[Predicting Car Prices Using Machine Learning Model]")
     st.markdown("---")
     #Sidebar Layout
